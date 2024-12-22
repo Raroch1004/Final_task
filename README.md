@@ -19,17 +19,18 @@
    cd repository-name
 
 4. **Активируйте виртуальное окружение:**
-    Для Windows
+   Для Windows (Если используете Windows)
    
    ```bash
    venv\Scripts\activate
 
-    Для macOS/Linux
+5. **Активируйте виртуальное окружение:**
+   Для macOS/Linux (Если используете macOS/Linux)
 
    ```bash
    source venv/bin/activate
 
-5. **Установите зависимости:**
+6. **Установите зависимости:**
 
    ```bash
    pip install -r requirements.txt
