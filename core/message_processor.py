@@ -30,7 +30,7 @@ class TelegramMessage:
 class DataFetcher:
     def __init__(self):
         self.base_path = os.path.dirname(__file__)
-        self.html_file = "messages.html"
+        self.html_file = os.path.join(os.path.dirname(__file__), 'messages.html')
 
     def extract_html(self) -> list:
         with open(self.html_file, 'r', encoding='utf-8') as file:
